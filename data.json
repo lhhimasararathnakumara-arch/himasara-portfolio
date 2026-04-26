@@ -1,0 +1,88 @@
+{
+    "hero": {
+        "greeting": "Hello, I'm",
+        "name": "Himasara Ranapuma",
+        "taglines": ["Web Developer", "UI Designer"],
+        "intro": "I craft dynamic, beautiful, and highly functional web applications. Bringing ideas to life through elegant code and stunning design."
+    },
+    "about": {
+        "text1": "I am a passionate <strong>Web Developer and UI/UX Designer</strong> based in Sri Lanka. I specialize in building modern, responsive, and performance-optimized websites that provide an amazing user experience.",
+        "text2": "With a strong foundation in both frontend and backend technologies, I bridge the gap between stunning visual design and robust technical implementation.",
+        "career_goal": "To constantly push the boundaries of web design and development, creating digital experiences that leave a lasting impact while expanding my expertise in modern frameworks.",
+        "experience_years": "2+",
+        "projects_completed": "20+",
+        "client_satisfaction": "100%"
+    },
+    "skills": {
+        "frontend": [
+            {"name": "HTML5 & CSS3", "percent": "95"},
+            {"name": "JavaScript", "percent": "85"},
+            {"name": "React / Vue", "percent": "75"}
+        ],
+        "backend": [
+            {"name": "PHP", "percent": "90"},
+            {"name": "MySQL", "percent": "85"},
+            {"name": "Node.js", "percent": "70"}
+        ],
+        "tools": [
+            {"name": "Figma / UI Design", "percent": "95"},
+            {"name": "Git & GitHub", "percent": "85"},
+            {"name": "Photoshop / Illustrator", "percent": "80"}
+        ]
+    },
+    "projects": [
+        {
+            "id": "1",
+            "title": "Cyber Modern E-Commerce",
+            "description": "A fully functional custom PHP e-commerce platform with an admin dashboard, Cart, and Checkout.",
+            "tech": ["PHP", "MySQL", "JavaScript", "Custom CSS"],
+            "image": "assets/images/project1.png",
+            "link_live": "#",
+            "link_code": "#"
+        },
+        {
+            "id": "2",
+            "title": "Admin Analytics Dashboard",
+            "description": "A sleek, dark-mode analytics dashboard showing real-time stats using Chart.js and smooth animations.",
+            "tech": ["HTML5", "CSS3", "JavaScript", "Chart.js"],
+            "image": "assets/images/project2.png",
+            "link_live": "#",
+            "link_code": "#"
+        },
+        {
+            "id": "3",
+            "title": "Creative Agency Portfolio",
+            "description": "A highly interactive and visually stunning 3D landing page for a creative agency.",
+            "tech": ["React", "Three.js", "Tailwind"],
+            "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+            "link_live": "#",
+            "link_code": "#"
+        }
+    ],
+    "services": [
+        {
+            "icon": "fa-laptop-code",
+            "title": "Website Development",
+            "description": "I build custom, responsive, and blazing-fast websites tailored to your specific business needs from scratch."
+        },
+        {
+            "icon": "fa-paint-brush",
+            "title": "UI/UX Design",
+            "description": "Crafting intuitive and beautiful user interfaces that provide an amazing user experience and higher conversions."
+        },
+        {
+            "icon": "fa-bug",
+            "title": "Bug Fixing & Optimization",
+            "description": "Analyzing existing codebases to fix bugs, improve performance, and enhance SEO for better visibility."
+        }
+    ],
+    "contact": {
+        "email": "hello@himasara.com",
+        "phone": "+94 70 123 4567",
+        "linkedin": "#",
+        "github": "#",
+        "dribbble": "#",
+        "twitter": "#",
+        "instagram": "#"
+    }
+}
