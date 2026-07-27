@@ -1,5 +1,5 @@
 <?php
-$dataFile = 'data.json';
+$dataFile = __DIR__ . '/data.json';
 $data = [];
 if(file_exists($dataFile)){
     $json = file_get_contents($dataFile);
