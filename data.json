@@ -76,6 +76,29 @@
             "description": "Analyzing existing codebases to fix bugs, improve performance, and enhance SEO for better visibility."
         }
     ],
+    "testimonials": [
+        {
+            "name": "Michael Chen",
+            "role": "CEO, TechFlow Inc. (NY)",
+            "image": "https://i.pravatar.cc/150?img=11",
+            "text": "Himasara delivered an absolutely stunning website for our startup. The attention to detail and modern UI design completely exceeded our expectations. Highly recommended!",
+            "rating": 5
+        },
+        {
+            "name": "Sarah Jenkins",
+            "role": "Founder, CloudPeak Solutions (CA)",
+            "image": "https://i.pravatar.cc/150?img=5",
+            "text": "Working with Himasara was a breeze. He understood our vision perfectly and built a blazing-fast, responsive web application. The code quality is top-notch.",
+            "rating": 5
+        },
+        {
+            "name": "David Miller",
+            "role": "Marketing Director, Elevate Digital (TX)",
+            "image": "https://i.pravatar.cc/150?img=33",
+            "text": "We needed a premium portfolio site for our agency, and Himasara absolutely nailed it. The glassmorphism effects and animations he implemented are world-class.",
+            "rating": 5
+        }
+    ],
     "contact": {
         "email": "lhhimasararathnakumara@gmail.com",
         "phone": "+94778693609",

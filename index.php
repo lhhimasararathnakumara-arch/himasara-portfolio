@@ -195,6 +195,32 @@ if(file_exists($dataFile)){
         </div>
     </section>
 
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Client <span>Reviews</span></h2>
+            <div class="testimonials-grid">
+                <?php foreach($data['testimonials'] ?? [] as $review): ?>
+                <div class="testimonial-card glass">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="review-text">"<?= htmlspecialchars($review['text']) ?>"</p>
+                    <div class="review-stars">
+                        <?php for($i=0; $i<$review['rating']; $i++): ?>
+                            <i class="fas fa-star"></i>
+                        <?php endfor; ?>
+                    </div>
+                    <div class="client-info">
+                        <img src="<?= htmlspecialchars($review['image']) ?>" alt="<?= htmlspecialchars($review['name']) ?>" class="client-img">
+                        <div class="client-details">
+                            <h4><?= htmlspecialchars($review['name']) ?></h4>
+                            <p><?= htmlspecialchars($review['role']) ?></p>
+                        </div>
+                    </div>
+                </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </section>
+
     <!-- 6. Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
