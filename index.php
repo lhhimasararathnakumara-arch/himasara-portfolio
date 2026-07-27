@@ -223,16 +223,16 @@ if(file_exists($dataFile)){
                     
                     <div class="social-links">
                         <?php if(!empty($data['contact']['linkedin']) && $data['contact']['linkedin'] !== '#'): ?>
-                        <a href="<?= htmlspecialchars($data['contact']['linkedin']) ?>"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="<?= htmlspecialchars($data['contact']['linkedin']) ?>" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         <?php endif; ?>
                         <?php if(!empty($data['contact']['github']) && $data['contact']['github'] !== '#'): ?>
-                        <a href="<?= htmlspecialchars($data['contact']['github']) ?>"><i class="fab fa-github"></i></a>
+                        <a href="<?= htmlspecialchars($data['contact']['github']) ?>" target="_blank"><i class="fab fa-github"></i></a>
                         <?php endif; ?>
-                        <?php if(!empty($data['contact']['dribbble']) && $data['contact']['dribbble'] !== '#'): ?>
-                        <a href="<?= htmlspecialchars($data['contact']['dribbble']) ?>"><i class="fab fa-dribbble"></i></a>
+                        <?php if(!empty($data['contact']['instagram']) && $data['contact']['instagram'] !== '#'): ?>
+                        <a href="<?= htmlspecialchars($data['contact']['instagram']) ?>" target="_blank"><i class="fab fa-instagram"></i></a>
                         <?php endif; ?>
-                        <?php if(!empty($data['contact']['twitter']) && $data['contact']['twitter'] !== '#'): ?>
-                        <a href="<?= htmlspecialchars($data['contact']['twitter']) ?>"><i class="fab fa-twitter"></i></a>
+                        <?php if(!empty($data['contact']['tiktok']) && $data['contact']['tiktok'] !== '#'): ?>
+                        <a href="<?= htmlspecialchars($data['contact']['tiktok']) ?>" target="_blank"><i class="fab fa-tiktok"></i></a>
                         <?php endif; ?>
                     </div>
                 </div>
