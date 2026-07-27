@@ -214,7 +214,7 @@ if(file_exists($dataFile)){
                     </div>
                     
                     <div class="info-item">
-                        <i class="fas fa-phone-alt"></i>
+                        <i class="fas fa-mobile-alt"></i>
                         <div>
                             <h4>Phone</h4>
                             <a href="tel:<?= htmlspecialchars($data['contact']['phone'] ?? '') ?>"><?= htmlspecialchars($data['contact']['phone'] ?? '') ?></a>
