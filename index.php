@@ -278,13 +278,16 @@ if(file_exists($dataFile)){
                 <h4>Follow Me</h4>
                 <div class="social-icons">
                     <?php if(!empty($data['contact']['linkedin']) && $data['contact']['linkedin'] !== '#'): ?>
-                    <a href="<?= htmlspecialchars($data['contact']['linkedin']) ?>"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="<?= htmlspecialchars($data['contact']['linkedin']) ?>" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                     <?php endif; ?>
                     <?php if(!empty($data['contact']['github']) && $data['contact']['github'] !== '#'): ?>
-                    <a href="<?= htmlspecialchars($data['contact']['github']) ?>"><i class="fab fa-github"></i></a>
+                    <a href="<?= htmlspecialchars($data['contact']['github']) ?>" target="_blank"><i class="fab fa-github"></i></a>
                     <?php endif; ?>
                     <?php if(!empty($data['contact']['instagram']) && $data['contact']['instagram'] !== '#'): ?>
-                    <a href="<?= htmlspecialchars($data['contact']['instagram']) ?>"><i class="fab fa-instagram"></i></a>
+                    <a href="<?= htmlspecialchars($data['contact']['instagram']) ?>" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <?php endif; ?>
+                    <?php if(!empty($data['contact']['tiktok']) && $data['contact']['tiktok'] !== '#'): ?>
+                    <a href="<?= htmlspecialchars($data['contact']['tiktok']) ?>" target="_blank"><i class="fab fa-tiktok"></i></a>
                     <?php endif; ?>
                 </div>
             </div>
