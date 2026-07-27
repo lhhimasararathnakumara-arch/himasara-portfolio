@@ -1,7 +1,7 @@
 {
     "hero": {
         "greeting": "Hello, I'm",
-        "name": "Himasara Ranapuma",
+        "name": "Himasara Ratnakumara",
         "taglines": ["Web Developer", "UI Designer"],
         "intro": "I craft dynamic, beautiful, and highly functional web applications. Bringing ideas to life through elegant code and stunning design."
     },
@@ -77,8 +77,8 @@
         }
     ],
     "contact": {
-        "email": "hello@himasara.com",
-        "phone": "+94 70 123 4567",
+        "email": "lhhimasararathnakumara@gmail.com",
+        "phone": "+94778693609",
         "linkedin": "#",
         "github": "#",
         "dribbble": "#",

@@ -103,24 +103,41 @@ if(contactForm) {
     contactForm.addEventListener('submit', function(e) {
         e.preventDefault();
         
-        // Simple visual feedback
         const btn = this.querySelector('button[type="submit"]');
         const originalText = btn.innerHTML;
         
         btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
         btn.disabled = true;
         
-        // Simulate sending
-        setTimeout(() => {
-            btn.innerHTML = '<i class="fas fa-check"></i> Sent Successfully!';
-            btn.style.background = '#45A29E';
-            this.reset();
-            
+        const formData = new FormData(this);
+        
+        fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            body: formData
+        })
+        .then(async (response) => {
+            let json = await response.json();
+            if (response.status == 200) {
+                btn.innerHTML = '<i class="fas fa-check"></i> Sent Successfully!';
+                btn.style.background = '#45A29E';
+                this.reset();
+            } else {
+                console.log(response);
+                btn.innerHTML = '<i class="fas fa-times"></i> Error! Try again';
+                btn.style.background = '#ff6b6b';
+            }
+        })
+        .catch(error => {
+            console.log(error);
+            btn.innerHTML = '<i class="fas fa-times"></i> Error! Try again';
+            btn.style.background = '#ff6b6b';
+        })
+        .finally(() => {
             setTimeout(() => {
                 btn.innerHTML = originalText;
                 btn.style.background = '';
                 btn.disabled = false;
             }, 3000);
-        }, 1500);
+        });
     });
 }

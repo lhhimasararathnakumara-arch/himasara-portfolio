@@ -61,7 +61,7 @@ if(file_exists($dataFile)){
             </div>
             <div class="hero-image">
                 <div class="img-wrapper glass">
-                    <img src="assets/images/profile.png" alt="<?= htmlspecialchars($data['hero']['name'] ?? '') ?>">
+                    <img src="assets/images/himasara.png" alt="<?= htmlspecialchars($data['hero']['name'] ?? '') ?>">
                 </div>
             </div>
         </div>
@@ -238,17 +238,18 @@ if(file_exists($dataFile)){
                 </div>
 
                 <form class="contact-form glass" id="contactForm">
+                    <input type="hidden" name="access_key" value="b34b3d49-5a9c-47d0-b8e4-208a2b47c2a6">
                     <div class="input-group">
-                        <input type="text" id="name" required placeholder="Your Name">
+                        <input type="text" name="name" id="name" required placeholder="Your Name">
                     </div>
                     <div class="input-group">
-                        <input type="email" id="email" required placeholder="Your Email">
+                        <input type="email" name="email" id="email" required placeholder="Your Email">
                     </div>
                     <div class="input-group">
-                        <input type="text" id="subject" required placeholder="Subject">
+                        <input type="text" name="subject" id="subject" required placeholder="Subject">
                     </div>
                     <div class="input-group">
-                        <textarea id="message" rows="5" required placeholder="Your Message"></textarea>
+                        <textarea name="message" id="message" rows="5" required placeholder="Your Message"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
                 </form>

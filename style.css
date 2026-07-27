@@ -214,10 +214,11 @@ section {
    1. Hero Section
    ========================================= */
 .hero {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 120px;
+    padding-bottom: 50px;
 }
 
 .hero-content {
