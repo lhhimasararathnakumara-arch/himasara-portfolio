@@ -160,11 +160,15 @@ if(file_exists($dataFile)){
                         <img src="<?= htmlspecialchars($proj['image'] ?? '') ?>" alt="<?= htmlspecialchars($proj['title'] ?? '') ?>">
                         <div class="project-overlay">
                             <?php if(!empty($proj['link_live'])): ?>
-                            <a href="<?= htmlspecialchars($proj['link_live']) ?>" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live</a>
+                                <?php if($proj['id'] == '1'): ?>
+                                    <a href="<?= htmlspecialchars($proj['link_live']) ?>" class="btn btn-primary" target="_blank"><i class="fas fa-play-circle"></i> Watch Demo</a>
+                                <?php else: ?>
+                                    <a href="<?= htmlspecialchars($proj['link_live']) ?>" class="btn btn-primary" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                                <?php endif; ?>
                             <?php endif; ?>
                             
                             <?php if(!empty($proj['link_code'])): ?>
-                            <a href="<?= htmlspecialchars($proj['link_code']) ?>" class="btn btn-secondary"><i class="fab fa-github"></i> Code</a>
+                            <a href="<?= htmlspecialchars($proj['link_code']) ?>" class="btn btn-secondary" target="_blank"><i class="fab fa-github"></i> Code</a>
                             <?php endif; ?>
                         </div>
                     </div>
