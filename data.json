@@ -37,8 +37,8 @@
             "description": "A fully functional custom PHP e-commerce platform with an admin dashboard, Cart, and Checkout.",
             "tech": ["PHP", "MySQL", "JavaScript", "Custom CSS"],
             "image": "assets/images/project1.png",
-            "link_live": "#",
-            "link_code": "#"
+            "link_live": "javascript:void(0)",
+            "link_code": "javascript:void(0)"
         },
         {
             "id": "2",
@@ -46,8 +46,8 @@
             "description": "A sleek, dark-mode analytics dashboard showing real-time stats using Chart.js and smooth animations.",
             "tech": ["HTML5", "CSS3", "JavaScript", "Chart.js"],
             "image": "assets/images/project2.png",
-            "link_live": "#",
-            "link_code": "#"
+            "link_live": "javascript:void(0)",
+            "link_code": "javascript:void(0)"
         },
         {
             "id": "3",
@@ -55,8 +55,8 @@
             "description": "A highly interactive and visually stunning 3D landing page for a creative agency.",
             "tech": ["React", "Three.js", "Tailwind"],
             "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-            "link_live": "#",
-            "link_code": "#"
+            "link_live": "javascript:void(0)",
+            "link_code": "javascript:void(0)"
         }
     ],
     "services": [
