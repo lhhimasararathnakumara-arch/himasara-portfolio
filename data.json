@@ -46,7 +46,7 @@
             "description": "A sleek, dark-mode analytics dashboard showing real-time stats using Chart.js and smooth animations.",
             "tech": ["HTML5", "CSS3", "JavaScript", "Chart.js"],
             "image": "assets/images/project2.png",
-            "link_live": "javascript:void(0)",
+            "link_live": "https://admin-dashboard-silk-zeta-36.vercel.app/",
             "link_code": "https://github.com/lhhimasararathnakumara-arch/admin-dashboard"
         },
         {
@@ -55,7 +55,7 @@
             "description": "A highly interactive and visually stunning 3D landing page for a creative agency.",
             "tech": ["React", "Three.js", "Tailwind"],
             "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-            "link_live": "javascript:void(0)",
+            "link_live": "https://creative-agency-zeta-bice.vercel.app/",
             "link_code": "https://github.com/lhhimasararathnakumara-arch/creative-agency"
         }
     ],
