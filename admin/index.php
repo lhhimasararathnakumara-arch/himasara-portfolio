@@ -128,6 +128,10 @@ if (file_exists($dataFile)) {
                     <input type="text" name="contact_phone" value="<?= htmlspecialchars($data['contact']['phone'] ?? '') ?>">
                 </div>
                 <div class="form-group">
+                    <label>WhatsApp Number</label>
+                    <input type="text" name="contact_whatsapp" value="<?= htmlspecialchars($data['contact']['whatsapp'] ?? '') ?>">
+                </div>
+                <div class="form-group">
                     <label>LinkedIn Link</label>
                     <input type="text" name="contact_linkedin" value="<?= htmlspecialchars($data['contact']['linkedin'] ?? '') ?>">
                 </div>

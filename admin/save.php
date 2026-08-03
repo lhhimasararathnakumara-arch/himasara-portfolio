@@ -30,6 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Update Contact
     if(isset($_POST['contact_email'])) $data['contact']['email'] = $_POST['contact_email'];
     if(isset($_POST['contact_phone'])) $data['contact']['phone'] = $_POST['contact_phone'];
+    if(isset($_POST['contact_whatsapp'])) $data['contact']['whatsapp'] = $_POST['contact_whatsapp'];
     if(isset($_POST['contact_linkedin'])) $data['contact']['linkedin'] = $_POST['contact_linkedin'];
     if(isset($_POST['contact_github'])) $data['contact']['github'] = $_POST['contact_github'];
 

@@ -255,6 +255,20 @@ if(file_exists($dataFile)){
                         </div>
                     </div>
                     
+                    <?php if(!empty($data['contact']['whatsapp'])): ?>
+                    <div class="info-item">
+                        <i class="fab fa-whatsapp" style="font-size: 1.5rem; color: #45A29E; margin-right: 15px;"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <?php 
+                            $wa = $data['contact']['whatsapp'];
+                            $waLink = preg_replace('/[^0-9]/', '', $wa);
+                            ?>
+                            <a href="https://wa.me/<?= htmlspecialchars($waLink) ?>" target="_blank"><?= htmlspecialchars($wa) ?></a>
+                        </div>
+                    </div>
+                    <?php endif; ?>
+                    
                     <div class="social-links">
                         <?php if(!empty($data['contact']['linkedin']) && $data['contact']['linkedin'] !== '#'): ?>
                         <a href="<?= htmlspecialchars($data['contact']['linkedin']) ?>" target="_blank"><i class="fab fa-linkedin-in"></i></a>
